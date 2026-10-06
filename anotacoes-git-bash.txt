@@ -1,0 +1,48 @@
+ANOTAÇÕES — GIT BASH
+
+pwd = mostra onde estou
+ls = lista arquivos e pastas
+cd pasta = entra em uma pasta
+cd .. = volta uma pasta
+
+mkdir pasta = cria uma pasta
+mkdir -p a/b/c = cria várias pastas em sequência
+
+touch arquivo.txt = cria um arquivo vazio
+
+echo "texto" = mostra um texto no terminal
+echo "texto" > arquivo.txt = escreve texto no arquivo
+
+cat arquivo.txt = mostra o conteúdo do arquivo
+cat > arquivo.txt = permite digitar conteúdo no arquivo
+Ctrl + D = finaliza o cat >
+
+mv arquivo pasta = move arquivo/pasta
+mv antigo novo = renomeia
+
+cp arquivo copia = copia um arquivo
+cp -r pasta copia = copia uma pasta + todo o conteúdo
+
+rm arquivo = apaga um arquivo
+rm -r pasta = apaga uma pasta + conteúdo
+rm -r pasta/* = apaga tudo dentro da pasta, mas mantém a pasta
+rm -rf pasta = força a remoção da pasta + conteúdo
+
+APRENDIZADO PRÁTICO:
+
+pwd → Onde estou?
+ls → O que tem aqui?
+cd → Entrar em uma pasta
+cd .. → Voltar
+mkdir → Criar pasta
+touch → Criar arquivo
+echo → Mostrar/escrever texto
+cat → Ler conteúdo
+mv → Mover/renomear
+cp → Copiar
+rm → Apagar
+
+PRÓXIMO COMANDO PARA ESTUDAR:
+
+head -n 5 arquivo.txt
+→ mostra as 5 primeiras linhas do arquivo.
